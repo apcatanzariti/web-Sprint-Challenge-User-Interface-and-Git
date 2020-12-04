@@ -71,6 +71,64 @@ p {
     margin: 0 auto;
 }
 
+/* --------------------------------------------------BEGIN STYLING FOR THE HEADER------------------------------------------------------------- */ 
+
+header {
+    display: flex;
+    padding: 20px 0px 30px 0px;
+}
+
+.nav_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_top a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.nav_top a:hover {
+    color: white;
+    background-color: black;
+}
+
+.header_img {
+    padding-bottom: 30px;
+}
+
+/* --------------------------------------------------END STYLING FOR THE HEADER------------------------------------------------------------- */
+
+/* --------------------------------------------------BEGIN STYLING FOR THE FOOTER------------------------------------------------------------- */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------END STYLING FOR THE FOOTER------------------------------------------------------------- */
+
+/* --------------------------------------------------BEGIN STYLING FOR THE HOME PAGE-------------------------------------------------------- */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -126,21 +184,50 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
+/* -------------------------------------------------END STYLING FOR THE HOME PAGE----------------------------------------------------------- */
+
+/* -----------------------------------------------BEGIN STYLING FOR THE ABOUT PAGE---------------------------------------------------------- */ 
+
+#about_top_section {
+    border-bottom: 1px dashed black;
+    padding: 0px 10px 20px 10px;
 }
 
-footer nav {
-    width: 60%;
+#about_middle_section {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.about_content_box {
+    width: 46.5%;
+    margin: 20px 10px;
+    border-bottom: 1px dashed black;
 }
+
+.about_content_box h2 {
+    margin-top: 10px;
+}
+
+.about_content_box button {
+    background-color: white;
+    font-size: 1em;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 18px;
+    transition: .3s;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.about_content_box button:hover {
+    background-color: black;
+    color: white;
+}
+
+#about_bottom_section {
+    padding: 10px 10px 30px 10px;
+}
+
+/* --------------------------------------------------END STYLING FOR THE ABOUT PAGE---------------------------------------------------------- */
