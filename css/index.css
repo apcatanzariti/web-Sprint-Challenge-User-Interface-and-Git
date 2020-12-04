@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+/* --------------------------------------------------BEGIN STYLING FOR THE HEADER------------------------------------------------------------- */ 
+
 header {
     display: flex;
     padding: 20px 0px 30px 0px;
@@ -99,6 +101,33 @@ header {
 .header_img {
     padding-bottom: 30px;
 }
+
+/* --------------------------------------------------END STYLING FOR THE HEADER------------------------------------------------------------- */
+
+/* --------------------------------------------------BEGIN STYLING FOR THE FOOTER------------------------------------------------------------- */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------END STYLING FOR THE FOOTER------------------------------------------------------------- */
+
+/* --------------------------------------------------BEGIN STYLING FOR THE HOME PAGE-------------------------------------------------------- */
 
 .top-content {
     display: flex;
@@ -155,27 +184,9 @@ header {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
+/* -------------------------------------------------END STYLING FOR THE HOME PAGE----------------------------------------------------------- */
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-
-/* STYLING FOR THE ABOUT PAGE */ 
+/* -----------------------------------------------BEGIN STYLING FOR THE ABOUT PAGE---------------------------------------------------------- */ 
 
 #about_top_section {
     border-bottom: 1px dashed black;
@@ -218,3 +229,5 @@ footer nav a {
 #about_bottom_section {
     padding: 10px 10px 30px 10px;
 }
+
+/* --------------------------------------------------END STYLING FOR THE ABOUT PAGE---------------------------------------------------------- */
