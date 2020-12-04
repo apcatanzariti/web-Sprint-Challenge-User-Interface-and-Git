@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    padding: 20px 0px 30px 0px;
+}
+
+.nav_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_top a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.nav_top a:hover {
+    color: white;
+    background-color: black;
+}
+
+.header_img {
+    padding-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +172,25 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* STYLING FOR THE ABOUT PAGE */ 
+
+#about_top_section {
+    border-bottom: 1px dashed black;
+    padding: 0px 10px 20px 10px;
+}
+
+#about_middle_section {
+    border: 1px solid red;
+}
+
+
+
+
+
+
+#about_bottom_section {
+    padding: 0px 10px 30px 10px;
 }
